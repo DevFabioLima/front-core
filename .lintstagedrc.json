@@ -1,5 +1,6 @@
 {
   "*.{ts,tsx}": [
-    "eslint 'src/**' --fix"
+    "eslint 'src/core/components/**' --fix",
+    "eslint 'src/core/pages/**' --fix" 
   ]
 }
