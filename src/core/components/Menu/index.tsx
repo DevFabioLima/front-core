@@ -19,7 +19,6 @@ import {
   IconLocal,
   IconSetor,
 } from './styles';
-import logo from '../../img/logo.png';
 import { useAuth } from '../../hooks/auth';
 
 const Menu: React.FC = () => {
@@ -29,7 +28,7 @@ const Menu: React.FC = () => {
     <Container>
       <Topside>
         <Logo>
-          <img src={logo} alt="logo" />
+          <h1>LOGO</h1>
         </Logo>
         <Link to="/">
           <MenuButton>
