@@ -30,9 +30,6 @@ const CreateSetor: React.FC = () => {
           type: 'success',
           title: 'Novo setor criado',
         });
-        setTimeout(() => {
-          window.location.reload();
-        }, 2000);
       } catch (err) {
         addToast({
           type: 'error',

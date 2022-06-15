@@ -76,9 +76,6 @@ const CreateUser: React.FC = () => {
           type: 'success',
           title: 'Novo usuário criado',
         });
-        setTimeout(() => {
-          window.location.reload();
-        }, 2000);
       } catch (err) {
         addToast({
           type: 'error',

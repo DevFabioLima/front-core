@@ -32,9 +32,6 @@ const CreateProfile: React.FC = () => {
           type: 'success',
           title: 'Novo perfil criado',
         });
-        setTimeout(() => {
-          window.location.reload();
-        }, 2000);
       } catch (err) {
         addToast({
           type: 'error',

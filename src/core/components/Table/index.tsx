@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 import React from 'react';
 import { IUser } from '../../ts/interfaces/users';
 import { IProfile } from '../../ts/interfaces/profile';

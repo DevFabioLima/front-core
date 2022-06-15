@@ -51,9 +51,6 @@ const CreateLocal: React.FC = () => {
           type: 'success',
           title: 'Novo local criado',
         });
-        setTimeout(() => {
-          window.location.reload();
-        }, 2000);
       } catch (err) {
         addToast({
           type: 'error',
